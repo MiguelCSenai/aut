@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <title>               Quem Somos | AAA Automação Industrial         </title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Automatizar, automático, produção, maquinas, fresa, industrias, sequencia, torno, tecnológico, centro de usinagem, repetição, radial, furadeira, fabricas, evolução, valioso, tempo, perigoso, global, empregos">
+
+
+    </head>
+
+<body>
+
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+
+    width: 1903px;
+
+}
+
+.fixmenu {
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+    background-color: rgb(79, 116, 165);
+    max-width: 1920px;
+}
+
+#menu-h ul {
+    max-width: 1674px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(1, 63, 99);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(70, 96, 121);
+}
+
+#menu-h ul li:last-child a:hover {
+
+    background-color: rgb(1, 63, 99);
+
+}
+
+.rodape{
+    background-color: rgb(88, 119, 167);
+    color: white;
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    font-family: helvetica;
+
+}
+.rodape a{
+    text-decoration: none;
+    color: white;
+}
+.rodape p{
+    margin-bottom: 0px;
+}
+.rodape-div{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+}
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+.rodape span{
+    font-size: 20px;
+    color: white;
+}
+.rodape-direitos{
+    width: calc(100% - 0px);
+    background-color: rgb(83, 83, 83);
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+/*mobile*/
+@media (max-width: 768px) {
+    .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+        width: calc(50% - 20px);
+        padding: 10px;
+    }
+    .rodape-div{
+        padding: 60px 0px 40px 0px;
+    }
+}
+
+.insta {
+
+    width: 40px;
+    height: 40px;
+    margin-top: 14px;
+    margin-left: -54px;
+
+}
+.divinsta {
+
+    display: list-item;
+    list-style: none;
+
+}
+
+.colunaRS {
+
+    display: table-column;
+
+}
+
+.RS {
+
+    margin-right: 220px;
+    margin-top: -95px;
+
+}
+
+.RS2 {
+
+margin-right: 205px;
+margin-top: -42px;
+
+}
+
+.RShd {
+
+    margin-left: -54px;
+
+}
+
+.imgcapa {
+
+width: 100%;
+height: 100%;
+opacity: 70%;
+
+}
+
+.imglogo {
+
+width: 86%;
+margin-top: -652px;
+z-index: 1;
+position: relative;
+-webkit-box-shadow: 5px 5px 37px 17px #0000009c; 
+box-shadow: 5px 5px 37px 17px #0000009c;
+animation-duration: 1.5s;
+animation-name: slidein;
+margin-left: 131px;
+
+}
+
+@keyframes slidein {
+
+from {
+
+margin-top: -150px;
+
+}
+
+to {
+
+margin-top: -652px;
+
+}
+
+0% {
+
+opacity: 0;
+
+}
+
+20% {
+
+opacity: 0;
+
+}
+
+100% {
+opacity: 1;
+}
+
+}
+
+.maintext {
+
+    width: 40%;
+    color: rgb(92, 92, 92);
+    margin-left: 201px;
+    border-left: 4px solid rgb(88, 119, 167);
+    padding-left: 20px;
+    border-radius: 2px;
+    padding-bottom: 15px;
+    
+
+}
+
+.titulo {
+
+    color: rgb(41, 74, 122);
+    margin-left: 230px;
+    margin-top: -200px;
+
+}
+
+.titulo-missao {
+
+    color: rgb(41, 74, 122);
+    margin-top: 80px;
+    padding-bottom: 30px;
+
+}
+
+.titulo-visao {
+
+color: rgb(41, 74, 122);
+margin-top: 80px;
+padding-bottom: 30px;
+
+}
+
+.titulo-valores {
+
+color: rgb(41, 74, 122);
+margin-top: 80px;
+padding-bottom: 30px;
+
+}
+
+.botao {
+
+    width: 140px;
+    height: 42px;
+    background-color: rgb(52, 89, 145);
+    font-size: 15px;
+    padding-top: 9px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    margin-left: 0px;
+    margin-top: 20px;
+    border: 0;
+    box-shadow: -6px 7px 17px 1px #0000009c;
+    transition: background 300ms;
+    transition: 300ms linear;
+
+}
+
+.botao:hover {
+
+    background-color: rgb(1, 63, 99);
+    transform: scale(1.05);
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+.final {
+
+    color: rgb(20, 20, 20);
+    font-weight: bold;
+
+}
+
+.maindiv {
+
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0, 0, 255, 0);
+    margin-top: -469px;
+    margin-left: -90px;
+    z-index: 2;
+    position: relative;
+    display: inline;
+
+}
+
+.img {
+
+    position: relative;
+    z-index: 1;
+
+}
+
+.mvv {
+
+    width: 20%;
+    height: 1441px;
+    margin-left: 65%;
+    margin-top: -1550px;
+    
+
+}
+
+.missao {
+
+    height: 30%;
+    color: rgb(92, 92, 92);
+    text-align: left;
+
+}
+
+.visao {
+
+height: 30%;
+
+}
+
+.valores {
+
+height: 30%;
+
+}
+
+.espaços {
+
+    height: 0%;
+
+}
+
+.portifolio {
+
+    width: 80%;
+
+}
+
+.titulo-portifolio {
+
+color: rgb(41, 74, 122);
+margin-left: 70px;
+padding-bottom: 30px;
+
+}
+
+.divimg {
+
+    display: inline-block;
+
+}
+
+.airbus {
+
+    width: 190px;
+    margin-bottom: 45px;
+    margin-left: 100px;
+
+}
+
+.amazon {
+
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.basf {
+
+    width: 190px;
+    margin-left: 10px;
+    margin-bottom: 12px;
+
+}
+
+.boeing {
+
+    margin-left: 10px;
+
+}
+
+.roche {
+
+    width: 190px;
+    margin-bottom: 60px;
+
+}
+
+.pfizer {
+
+    margin-bottom: 25px;
+    margin-left: 30px;
+
+}
+
+.tesla {
+
+    width: 246px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+
+}
+
+    </style>
+
+<div class="fixmenu"><nav id="menu-h">
+    <ul class="icones">
+
+        <li>
+            <a href="index.html">
+                Home
+            </a>
+        </li>
+               
+        <li><a href="sobre.html">Quem Somos</a></li>
+
+        <li><a href="serviços.html">Serviços</a></li>
+
+        <li><a href="produto.html">Produtos</a></li>
+
+        <li><a href="FAQ.html">FAQ</a></li>
+       
+        <li class="contato"><a href="cadastro1.html">Junte-se a Nós</a></li>
+       
+    </ul>
+</nav></div>
+
+<div>
+    
+    <img src="sobre capa.jpeg" class="imgcapa">
+
+</div>
+
+<div>
+
+    <img src="capa sobre.jpg" class="imglogo">
+
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div class="maindiv">
+
+<h1 class="titulo" >Nossa História</h1>
+
+<div class="maintext">
+
+    
+<br>
+Desde a sua fundação há mais de 15 anos, a AAA Automação Industrial LTDA tem sido uma força impulsionadora no setor de automação industrial na cidade de Santa Bárbara d'Oeste, São Paulo. Ao longo dos anos, construímos uma sólida reputação e nos tornamos uma referência no fornecimento de soluções de automação eletrônica e elétrica de alta qualidade.
+<br><br>
+Nossa história começou com uma visão ousada de fornecer serviços de automação industrial que atendessem às necessidades crescentes das empresas da região. Acreditávamos que a automação poderia revolucionar a eficiência e a produtividade das indústrias, e decidimos embarcar nessa jornada empreendedora. Com dedicação, conhecimento técnico e uma equipe altamente qualificada, começamos a transformar essa visão em realidade.
+<br><br>
+Nos primeiros anos, nos concentramos em estabelecer parcerias com os principais fabricantes de equipamentos e tecnologias de automação industrial. Isso nos permitiu fornecer aos nossos clientes os produtos mais avançados e confiáveis do mercado. Nossa expertise em controladores lógicos programáveis, conversores e inversores nos diferenciou no setor e nos tornou um fornecedor confiável para empresas de diversos segmentos industriais.
+<br><br>
+Além de fornecer produtos de alta qualidade, percebemos que nossos clientes precisavam de suporte técnico especializado e serviços personalizados para atender às suas necessidades específicas. Assim, expandimos nossas operações para oferecer instalação e configuração de sistemas programáveis para automação industrial. Nossa equipe técnica, composta por engenheiros e especialistas em automação, garante que cada projeto seja implementado de forma eficiente e otimizada.
+<br><br>
+À medida que nossa reputação crescia, nossa gama de serviços se expandia. Começamos a oferecer inspeção de produtos para instrumentação industrial, ajudando nossos clientes a garantir a qualidade e a precisão de seus equipamentos. Também desenvolvemos expertise no diagnóstico de defeitos elétricos em máquinas a comando numérico computadorizado (CNC), permitindo que nossos clientes minimizem o tempo de inatividade e maximizem a eficiência de suas operações.
+<br><br>
+Outro marco importante em nossa história foi a especialização em integração de sistemas e protocolos de comunicação. Reconhecendo a importância da interoperabilidade entre os sistemas de automação, investimos em tecnologias e conhecimentos que permitem a integração perfeita de diferentes componentes de automação. Essa expertise nos permitiu fornecer soluções completas e altamente eficientes para nossos clientes, aumentando sua produtividade e reduzindo os custos operacionais.
+<br><br>
+Nossa dedicação contínua à excelência nos levou a expandir nossos serviços para incluir sistemas supervisórios. Esses sistemas monitoram e controlam os processos de produção e fabricação, fornecendo uma visão abrangente e em tempo real das operações industriais. Com soluções personalizadas e fáceis de usar, ajudamos nossos clientes a otimizar suas operações, melhorar a eficiência energética e tomar decisões estratégicas baseadas em dados precisos.
+<br><br>
+Hoje, a AAA Automação Industrial LTDA é uma referência no setor de automação industrial em Santa Bárbara d'Oeste e região. Nossa equipe dedicada e altamente capacitada continua a oferecer soluções inovadoras e serviços de alta qualidade para uma ampla variedade de indústrias, incluindo manufatura, energia, alimentos e bebidas, automobilística, entre outras.
+<br><br>
+Estamos orgulhosos de ter contribuído para o crescimento e sucesso de nossos clientes ao longo dos anos. Continuamos comprometidos em fornecer soluções personalizadas, suporte técnico especializado e um atendimento excepcional. Valorizamos relacionamentos duradouros e parcerias de sucesso, colocando a satisfação do cliente no centro de tudo o que fazemos.
+<br><br>
+Se você está em busca de uma empresa de automação industrial com um histórico comprovado e uma reputação sólida, a AAA Automação Industrial LTDA é a escolha certa. Junte-se a nós e descubra como podemos ajudar sua empresa a alcançar novos níveis de eficiência, produtividade e sucesso.
+<br><br><br><p class="final">Entre em contato conosco hoje mesmo e vamos iniciar uma jornada de automação industrial de sucesso juntos!</p>
+<a href="">
+    <div>
+
+    <div class="botao" href="cadastro1.html">
+
+        Entre em contato!
+
+    </div>
+</a>
+    </div>
+
+
+    </div>
+
+    <div class="mvv">
+
+        <div class="missao">
+
+            <h1 class="titulo-missao">Nossa Missão</h1>
+            Na AAA Automação Industrial LTDA, nossa missão é fornecer soluções de automação industrial de alta qualidade e serviços especializados para nossos clientes. Estamos comprometidos em impulsionar a eficiência, a produtividade e a competitividade de suas operações, por meio de inovação tecnológica, expertise técnica e atendimento excepcional. Nosso objetivo é ser o parceiro confiável e preferido em automação industrial, oferecendo soluções personalizadas que atendam às necessidades específicas de cada cliente.
+
+        </div>
+
+        <div class="espaços"></div>
+
+        <div class="visao">
+
+            <h1 class="titulo-visao">Nossa Visão</h1>
+            Nossa visão na AAA Automação Industrial LTDA é sermos líderes em automação industrial, reconhecidos pela excelência em soluções tecnológicas e serviços de alto padrão. Buscamos constantemente inovação e avanços tecnológicos para oferecer as melhores soluções aos nossos clientes, tornando-nos referência no setor. Almejamos ser reconhecidos como um parceiro estratégico que impulsiona o crescimento e o sucesso das indústrias, proporcionando eficiência, confiabilidade e competitividade em suas operações.
+
+        </div>
+
+        <div class="espaços"></div>
+
+        <div class="valores">
+
+            <h1 class="titulo-valores">Nossos Valores</h1>
+            Excelência, Confiança, Inovação, Colaboração e Compromisso com o cliente são os valores que guiam a AAA Automação Industrial LTDA. Buscamos a excelência em tudo o que fazemos, construímos relacionamentos baseados na confiança, impulsionamos a inovação, valorizamos a colaboração e colocamos o cliente como nossa prioridade máxima. Esses valores fundamentais garantem que entregamos soluções de qualidade, atendendo às expectativas e necessidades de nossos clientes.
+
+        </div>
+
+    </div>
+
+<br><br><br><br><br>
+
+<div class="portifolio">
+
+    <h1 class="titulo-portifolio">Empresas Parceiras</h1>
+   <center> <div class="divimg">
+
+        <img src="portifolio/airbus.png" class="airbus">
+        <img src="portifolio/amazon.png" class="amazon">
+        <img src="portifolio/basf.png" class="basf">
+        <img src="portifolio/boeing.png" class="boeing">
+        <img src="portifolio/nestle.png" class="nestle">
+        <img src="portifolio/pfizer.png" class="pfizer">
+        <img src="portifolio/roche.png" class="roche">
+        <img src="portifolio/siemens.jpg" class="sims">
+        <img src="portifolio/siemensenergy.png" class="simse">
+        <img src="portifolio/tesla.png" class="tesla">
+
+    </div>
+</center>
+
+</div>
+<br><br><br><br><br>
+
+<footer class="rodape" id="contato">
+    <div class="rodape-div">
+
+        <div class="rodape-div-1">
+            <div class="rodape-div-1-coluna">
+                <!-- elemento -->
+                <span><b>Endereço</b></span>
+                <p>R. João Covolan Filho, 420 - Distrito Industrial I, Santa Bárbara d'Oeste - SP, 13456-134</p>
+            </div>
+        </div>
+
+        <div class="rodape-div-2">
+            <div class="rodape-div-2-coluna">
+                <!-- elemento -->
+                <span><b>Contato</b></span>
+                <p>Suporte@AAA.automação</p>
+                <p>+55 19 99200-0000</p>
+            </div>
+        </div>
+
+        <div class="rodape-div-3">
+            <div class="rodape-div-3-coluna">
+                <!-- elemento -->
+                <span><b>Navegação</b></span>
+                <p><a href="#">Home</a></p>
+                <p><a href="#">Quem Somos</a></p>
+                <p><a href="#">Serviços</a></p>
+                <p><a href="#">Produtos</a></p>
+                <p><a href="#">Contato</a></p>
+                <p><a href="#">FAQ</a></p>
+            </div>
+        </div>
+
+    <div class="rodape-div-4">
+        <div class="rodape-div-4-coluna">
+                <!-- elemento -->
+                <span><b class="RShd">Redes Sociais</b></span>
+            <div>
+                <div class="divinsta"><p><img src="Instagram.png" class="insta"></p></div>
+                <div class="divinsta"><p><img src="linkedin.png" class="insta"></p></div> 
+            
+            </div>
+            <p class="RS">@AAAautomaçãoinds.</p>
+            </div>
+
+            </div>
+            <p class="RS2">AAA - AutomaçãoIndustial LTDA.</p>
+            </div>                    
+            
+    <p class="rodape-direitos">AAA Automação Industrial LTDA. - © Copyright 2023 - Todos os direitos reservados, Política de Privacidade - Desenvolvido por FJI Technology</p>
+</footer>
+
+</div>
+
+</body>
